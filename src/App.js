@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://7548-2a06-c701-4421-7b00-3cb0-41e5-b9ba-51ff.ngrok-free.app`,
+        const response = await fetch(`https://b577-2a06-c701-4421-7b00-1196-8606-8c49-52eb.ngrok-free.app`,
           {
             method: 'GET',
           }
