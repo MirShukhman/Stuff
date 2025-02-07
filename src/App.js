@@ -11,6 +11,10 @@ function App() {
         const response = await fetch(`https://b577-2a06-c701-4421-7b00-1196-8606-8c49-52eb.ngrok-free.app`,
           {
             method: 'GET',
+            headers: {
+              'Content-Type': 'application/json',
+              'ngrok-skip-browser-warning': 'true',
+            },
           }
         );
         const data = await response.json();
