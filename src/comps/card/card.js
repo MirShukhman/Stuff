@@ -41,7 +41,7 @@ const Card = (props) =>{
                                     )}
             <div className='item' id='item-name'>{item.item}</div>
             <div className='item'>{item.descript && item.descript}</div>
-            <div className='item'>מחיר: {item.price && item.price && <span>ש"ח</span>}{!item.price && <span>חינם!</span>}</div>
+            <div className='item'>מחיר: {item.price && <span>ש"ח {item.price} </span>}{!item.price && <span>חינם!</span>}</div>
             <div className='claim'>
                 <p>אני רוצה:</p>
                 <input 
