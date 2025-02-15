@@ -1,4 +1,6 @@
 import Card from "./comps/card/card";
+import Loader from "./comps/loading/loading";
+import './App.css'
 import { useState, useEffect } from "react";
 
 function App() {
@@ -35,7 +37,7 @@ function App() {
 
   return (
     <div className="app">
-      {loading && <div>Loading...</div>} 
+      {loading && <div className="loader-wrapper"><Loader /></div>} 
       {!loading && items.length > 0 && (
         <div className="cards">
             {items.map((item, index) => (
