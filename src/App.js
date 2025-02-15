@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://b577-2a06-c701-4421-7b00-1196-8606-8c49-52eb.ngrok-free.app`,
+        const response = await fetch(`https://48cf-2a06-c701-440e-ee00-dc90-92cb-acd6-4f0d.ngrok-free.app`,
           {
             method: 'GET',
             headers: {
